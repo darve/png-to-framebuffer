@@ -2,6 +2,10 @@
 
 A handy tool for converting PNG images into RGB565 encoded uint16_t image buffers for use on embedded electronics (such as ST7789 / ILI9341 displays). It ouputs header files containing compressed RGB565 buffer data that can be drawn to a framebuffer (which is a fairly well supported practice for most displays). Out of the box this script is configured for displays with a resolution of 240x240.
 
+### Dependencies
+
+This tool is built with Node.js, so you'll need a modern version of that installed. Clone the repo and run `npm i` from the command line in the directory you've cloned to and you shoulld be good to go.
+
 #### Example
 
 Place your image(s) into the `img` directory run the script with the filename (without the extension) as the first parameter. It will then export the header file into the `output` directory.
