@@ -1,0 +1,14 @@
+{
+  "name": "png-to-framebuffer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Woollard <dave@darve.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "image-parser": "^1.2.8"
+  }
+}
